@@ -23,10 +23,10 @@ export default function Home() {
                 ¡Bienvenido a la base de operaciones de los Guerreros Z! Aquí comienza tu aventura para convertirte en el más fuerte del universo.
               </p>
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-                <Link href="/register" className="bg-[#FCEE21] border-4 border-black px-8 py-3 font-black uppercase shadow-[6px_6px_0px_0px_#000] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all">
+                <Link href="/register" className="bg-[#FCEE21] border-4 border-black px-8 py-3 font-black text-black uppercase shadow-[6px_6px_0px_0px_#000] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all">
                   ¡Inicia tu Entrenamiento!
                 </Link> 
-                <Link href="/guerreros_z" className="bg-[#5088C5] border-4 border-black px-8 py-3 font-black uppercase shadow-[6px_6px_0px_0px_#000] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all">
+                <Link href="/guerreros_z" className="bg-[#5088C5] border-4 border-black px-8 py-3 font-black text-black uppercase shadow-[6px_6px_0px_0px_#000] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all">
                   Ver Guerreros Z
                 </Link>
               </div>
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <h3 className="text-2xl text-black font-black mb-2 uppercase">Tecnología Saiyajin</h3>
             <p className="text-black font-bold mb-4 opacity-70">Descubre los nuevos modelos de naves espaciales y armaduras de combate.</p>
-            <Link href="/" className="text-[#E31F26] font-black uppercase underline decoration-4">Leer más</Link>
+            <Link href="/tecnologia" className="text-[#E31F26] font-black uppercase underline decoration-4">Leer más</Link>
           </div>
 
           {/* Card 2 */}

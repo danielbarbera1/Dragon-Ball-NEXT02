@@ -20,9 +20,9 @@ export default function Footer() {
                         <div className="space-y-4 text-black flex flex-col items-center md:items-start">
                             {[
                                 { n: 'Planeta Tierra', p: '/' },
-                                { n: 'Técnicas', p: '/tecnicas' },
-                                { n: 'Guerreros Z', p: '/guerreros-z' },
-                                { n: 'Radar Dragón', p: '/radar' }
+                                { n: 'Planetas', p: '/planetas' },
+                                { n: 'Guerreros Z', p: '/guerreros_z' },
+                                { n: 'Radar del Dragón', p: '/radar' }
                             ].map((link) => (
                                 <Link key={link.n} href={link.p} 
                                       className="hover:text-[#E31F26] transition-colors hover:translate-x-2 transform duration-100 flex items-center gap-2">
@@ -39,10 +39,10 @@ export default function Footer() {
                             Entrenamiento
                         </h6>
                         <div className="space-y-4 text-black flex flex-col items-center md:items-start">
-                            <Link href="/tecnicas#vuelo" className="hover:text-[#5088C5]">Control del Ki</Link>
-                            <Link href="/tecnicas#fusiones" className="hover:text-[#5088C5]">Arte de la Fusión</Link>
-                            <Link href="/tecnicas#transformacion" className="hover:text-[#5088C5]">Super Saiyajin</Link>
-                            <Link href="/tecnicas#gravedad" className="hover:text-[#5088C5]">Cámara de Gravedad</Link>
+                            <Link href="/entrenamiento" className="hover:text-[#5088C5]">Control del Ki</Link>
+                            <Link href="/fusion" className="hover:text-[#5088C5]">Arte de la Fusión</Link>
+                            <Link href="/super-saiyajin" className="hover:text-[#5088C5]">Super Saiyajin</Link>
+                            <Link href="/gravedad" className="hover:text-[#5088C5]">Cámara de Gravedad</Link>
                         </div>
                     </div>
 
