@@ -24,9 +24,9 @@ export default function Footer() {
                                 { n: 'Guerreros Z', p: '/guerreros_z' },
                                 { n: 'Radar del Dragón', p: '/radar' }
                             ].map((link) => (
-                                <Link key={link.n} href={link.p} 
-                                      className="hover:text-[#E31F26] transition-colors hover:translate-x-2 transform duration-100 flex items-center gap-2">
-                                     <span className="text-[#FCEE21] [text-shadow:1px_1px_0px_#000]">★</span> {link.n}
+                                <Link key={link.n} href={link.p}
+                                    className="hover:text-[#E31F26] transition-colors hover:translate-x-2 transform duration-100 flex items-center gap-2">
+                                    <span className="text-[#FCEE21] [text-shadow:1px_1px_0px_#000]">★</span> {link.n}
                                 </Link>
                             ))}
                         </div>
@@ -53,8 +53,8 @@ export default function Footer() {
                             Radar Dragón
                         </h6>
                         <div className="space-y-3 bg-black p-4 border-4 border-[#5088C5] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] text-white not-italic font-bold">
-                            <p>📧 kaiosama@enma-daio.com</p>
-                            <p>📱 +34 900 GOKU-Z</p>
+                            <p>📧 kaiosama@gmail.com</p>
+                            <p>📱 7777-77777</p>
                             <p>📍 Capsule Corp. - Sector West City</p>
                         </div>
                     </div>
@@ -91,10 +91,18 @@ export default function Footer() {
                     </div>
 
                     <div className="flex gap-4">
-                        {['G', 'T', 'L'].map((icon, i) => (
-                            <a key={i} href="#" 
-                               className="bg-[#FCEE21] border-4 border-black w-12 h-12 flex items-center justify-center text-black text-xl font-black shadow-[4px_4px_0px_0px_#000] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all">
-                                {icon}
+                        {[
+                            { name: 'Git', url: 'https://github.com/danielbarbera1' },
+                            { name: 'IG', url: 'https://www.instagram.com/danxvlogs/' } 
+                        ].map((social, i) => (
+                            <a
+                                key={i}
+                                href={social.url}
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="bg-[#FCEE21] border-4 border-black w-14 h-14 flex items-center justify-center text-black text-xl  font-black shadow-[4px_4px_0px_0px_#000] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all uppercase italic"
+                            >
+                                {social.name}
                             </a>
                         ))}
                     </div>

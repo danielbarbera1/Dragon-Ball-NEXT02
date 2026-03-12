@@ -49,7 +49,7 @@ export default function PlanetasPage() {
       {/* HEADER ESTILO CAPSULE CORP */}
       <div className="max-w-7xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-center gap-6 bg-white p-6 border-4 border-black shadow-[8px_8px_0px_0px_#000]">
         <div>
-          <h1 className="text-3xl font-black italic uppercase tracking-tighter">
+          <h1 className="text-3xl  text-black font-black italic uppercase tracking-tighter">
             GALAXY <span className="text-[#5088C5]">EXPLORER</span>
           </h1>
           <p className="text-[10px] font-bold text-gray-500 uppercase">Sistema de navegación de Capsule Corp.</p>

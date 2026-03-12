@@ -14,9 +14,9 @@ export const fusionsData = [
     id: "f2",
     name: "Gogeta",
     method: "Danza Metamoru",
-    warrior1Id: 1,
-    warrior2Id: 2,
-    resultId: 11,
+    warrior1Id: 1,// ID de Goku en la API
+    warrior2Id: 2,// ID de Vegeta en la API
+    resultId: 65,
     description: "El resultado de la danza de fusión. No es ni Goku ni Vegeta, es quien acabará contigo.",
     color: "#E31F26"
   },
@@ -24,9 +24,9 @@ export const fusionsData = [
     id: "f3",
     name: "Gotenks",
     method: "Danza Metamoru",
-    warrior1Id: 12, // ID de Goten
-    warrior2Id: 13, // ID de Trunks
-    resultId: 14,
+    warrior1Id: 54, // ID de Goten
+    warrior2Id: 16, // ID de Trunks
+    resultId: 15,
     description: "La fusión de los pequeños prodigios. Poderoso pero extremadamente arrogante.",
     color: "#FCEE21"
   }

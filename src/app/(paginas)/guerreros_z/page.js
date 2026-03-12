@@ -40,7 +40,7 @@ export default function GuerrerosZPage() {
       
       {/* 3. Sección del buscador */}
       <div className="max-w-7xl mx-auto mb-10 flex flex-col md:flex-row justify-between items-center gap-6 bg-white p-6 border-4 border-black shadow-[8px_8px_0px_0px_#000]">
-        <h1 className="text-3xl font-black italic uppercase tracking-tighter">
+        <h1 className="text-3xl text-black font-black italic uppercase tracking-tighter">
           Z-FIGHTERS <span className="text-[#E31F26]">DATABASE</span>
         </h1>
         

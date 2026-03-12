@@ -85,10 +85,10 @@ export default function TecnologiaPage() {
 
                 {/* Detalles */}
                 <div className="w-full md:w-1/2 space-y-4">
-                  <h2 className="text-3xl font-black uppercase leading-tight border-b-4 border-black pb-2">
+                  <h2 className="text-3xl text-black font-black uppercase leading-tight border-b-4 border-black pb-2">
                     {selectedItem.name}
                   </h2>
-                  <p className="text-sm font-bold text-gray-600 italic">
+                  <p className="text-sm font-bold text-black italic">
                     {selectedItem.description}
                   </p>
                   

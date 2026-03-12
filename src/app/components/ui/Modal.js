@@ -78,7 +78,7 @@ export default function Modal({ isOpen, onClose, characterId, type = 'character'
 
                         {/* Sección Inferior: Transformaciones O Habitantes */}
                         <div className="pt-6 border-t-4 border-black">
-                            <h3 className="text-2xl font-black uppercase bg-[#FCEE21] border-4 border-black inline-block px-4 mb-8 shadow-[6px_6px_0px_0px_#000] -skew-x-6">
+                            <h3 className="text-2xl text-black font-black uppercase bg-[#FCEE21] border-4 border-black inline-block px-4 mb-8 shadow-[6px_6px_0px_0px_#000] -skew-x-6">
                                 {type === 'planet' ? 'Habitantes Registrados' : 'Línea de Evolución'}
                             </h3>
 
@@ -86,9 +86,9 @@ export default function Modal({ isOpen, onClose, characterId, type = 'character'
                                 {/* Lógica para Personajes (Transformaciones) */}
                                 {type === 'character' && data.transformations?.length > 0 &&
                                     data.transformations.map((t) => (
-                                        <div key={t.id} className="group border-4 border-black p-3 bg-white shadow-[5px_5px_0px_0px_#000] hover:translate-y-[-5px] transition-all">
+                                        <div key={t.id} className="group border-4 text-black border-black p-3 bg-white shadow-[5px_5px_0px_0px_#000] hover:translate-y-[-5px] transition-all">
                                             <img src={t.image} className="h-40 w-full object-contain mb-3" />
-                                            <p className="text-[10px] font-black uppercase text-center border-t-2 border-black pt-2">{t.name}</p>
+                                            <p className="text-[10px]   font-black uppercase text-center border-t-2 border-black pt-2">{t.name}</p>
                                         </div>
                                     ))
                                 }
@@ -96,7 +96,7 @@ export default function Modal({ isOpen, onClose, characterId, type = 'character'
                                 {/* Lógica para Planetas (Habitantes) */}
                                 {type === 'planet' && data.characters?.length > 0 &&
                                     data.characters.map((c) => (
-                                        <div key={c.id} className="group border-4 border-black p-3 bg-white shadow-[5px_5px_0px_0px_#5088C5] hover:translate-y-[-5px] transition-all">
+                                        <div key={c.id} className="group border-4 text-black border-black p-3 bg-white shadow-[5px_5px_0px_0px_#5088C5] hover:translate-y-[-5px] transition-all">
                                             <img src={c.image} className="h-40 w-full object-contain mb-3" />
                                             <p className="text-[10px] font-black uppercase text-center border-t-2 border-black pt-2">{c.name}</p>
                                         </div>
